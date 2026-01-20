@@ -1,40 +1,48 @@
 import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
-import { ReactLight } from "@/components/ui/svgs/reactLight";
+import { rust } from "@/components/ui/svgs/rust";
 import { NextjsIconDark } from "@/components/ui/svgs/nextjsIconDark";
-import { Typescript } from "@/components/ui/svgs/typescript";
-import { Nodejs } from "@/components/ui/svgs/nodejs";
+import { dotnet } from "@/components/ui/svgs/typescript";
 import { Python } from "@/components/ui/svgs/python";
-import { Golang } from "@/components/ui/svgs/golang";
-import { Postgresql } from "@/components/ui/svgs/postgresql";
+import { sqlserver } from "@/components/ui/svgs/sqlserver";
 import { Docker } from "@/components/ui/svgs/docker";
-import { Kubernetes } from "@/components/ui/svgs/kubernetes";
+import { php } from "@/components/ui/svgs/php";
 import { Java } from "@/components/ui/svgs/java";
 import { Csharp } from "@/components/ui/svgs/csharp";
+import { Kotlin } from "@/components/ui/svgs/golang";
+import { dart } from "@/components/ui/svgs/dart";
+import { astro } from "@/components/ui/svgs/astro";
+import { html } from "@/components/ui/svgs/html";
+import { css } from "@/components/ui/svgs/css";
+import { mysql } from "@/components/ui/svgs/mysql";
 
 export const DATA = {
-  name: "Dillion Verma",
-  initials: "DV",
+  name: "Putra",
+  initials: "BPW",
   url: "https://dillion.io",
-  location: "San Francisco, CA",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  location: "Yogyakarta, Indonesia",
+  locationLink: "https://www.google.com/maps/place/Yogyakarta",
   description:
-    "Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Twitter.",
+    "I am a mobile app developer and also a software engineer for business solutions.",
   summary:
-    "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
+    "I am currently a vocational high school (SMK) student majoring in SIJA (Sistem Informasi Jaringan dan Aplikasi), with a strong focus on developing mobile and desktop software. I actively learn and build applications to improve my skills in programming, system development, and application deployment. My interests include software engineering, application design, and exploring new technologies through hands-on projects and self-driven learning.",
   avatarUrl: "/me.png",
   skills: [
-    { name: "React", icon: ReactLight },
-    { name: "Next.js", icon: NextjsIconDark },
-    { name: "Typescript", icon: Typescript },
-    { name: "Node.js", icon: Nodejs },
-    { name: "Python", icon: Python },
-    { name: "Go", icon: Golang },
-    { name: "Postgres", icon: Postgresql },
-    { name: "Docker", icon: Docker },
-    { name: "Kubernetes", icon: Kubernetes },
+    { name: "C#", icon: Csharp },
+    { name: "Kotlin", icon: Kotlin },
+    { name: "Dart", icon: dart },
     { name: "Java", icon: Java },
-    { name: "C++", icon: Csharp },
+    { name: "Python", icon: Python },
+    { name: "Rust", icon: rust },
+    { name: "php", icon: php },
+    { name: "Html", icon: html },
+    { name: "Css", icon: css },
+    { name: "Next.js", icon: NextjsIconDark },
+    { name: "Flutter", icon: astro }, 
+    { name: ".NET", icon: dotnet },
+    { name: "Docker", icon: Docker },
+    { name: "mysql", icon: mysql },
+    { name: "SQL Server", icon: sqlserver },
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -157,36 +165,12 @@ export const DATA = {
   ],
   education: [
     {
-      school: "Buildspace",
-      href: "https://buildspace.so",
-      degree: "s3, s4, sf1, s5",
-      logoUrl: "/buildspace.jpg",
+      school: "SMK Negeri 2 Yogyakarta",
+      href: "https://www.smk2-yk.sch.id/",
+      degree: "Sistem Informasi Jaringan dan Aplikasi (SIJA)",
+      logoUrl: "/smk.png",
       start: "2023",
-      end: "2024",
-    },
-    {
-      school: "University of Waterloo",
-      href: "https://uwaterloo.ca",
-      degree: "Bachelor's Degree of Computer Science (BCS)",
-      logoUrl: "/waterloo.png",
-      start: "2016",
-      end: "2021",
-    },
-    {
-      school: "Wilfrid Laurier University",
-      href: "https://wlu.ca",
-      degree: "Bachelor's Degree of Business Administration (BBA)",
-      logoUrl: "/laurier.png",
-      start: "2016",
-      end: "2021",
-    },
-    {
-      school: "International Baccalaureate",
-      href: "https://ibo.org",
-      degree: "IB Diploma",
-      logoUrl: "/ib.png",
-      start: "2012",
-      end: "2016",
+      end: "2027",
     },
   ],
   projects: [
